@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="364e04e2-d8ee-412a-a33d-82ffea825979" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2afYI4May3KLgOzwSG7El5Zh8r0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.0001_initial.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Django/job-app-template&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.30120483&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django\Jobapp\uploads\uploads\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Django\Jobapp\app\static\app" />
+      <recent name="D:\Django\Jobapp\app\static" />
+      <recent name="D:\Django\Jobapp\subscribe\static\subscribe" />
+      <recent name="D:\Django\Jobapp\app\Templates\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.Jobapp">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jobapp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Jobapp" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Jobapp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364e04e2-d8ee-412a-a33d-82ffea825979" name="Changes" comment="" />
+      <created>1704711017215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704711017215</updated>
+      <workItem from="1704711018272" duration="1502000" />
+      <workItem from="1704719699079" duration="3114000" />
+      <workItem from="1704740116849" duration="1468000" />
+      <workItem from="1704783940043" duration="3363000" />
+      <workItem from="1704801061438" duration="48000" />
+      <workItem from="1704801115604" duration="1133000" />
+      <workItem from="1704874560773" duration="11686000" />
+      <workItem from="1704943603166" duration="543000" />
+      <workItem from="1704946201139" duration="3467000" />
+      <workItem from="1704958811107" duration="6268000" />
+      <workItem from="1704979048977" duration="2641000" />
+      <workItem from="1705028246844" duration="53000" />
+      <workItem from="1705028307536" duration="1139000" />
+      <workItem from="1705029456832" duration="134000" />
+      <workItem from="1705029599750" duration="2504000" />
+      <workItem from="1705036324171" duration="97000" />
+      <workItem from="1705036428170" duration="12085000" />
+      <workItem from="1705127458292" duration="1639000" />
+      <workItem from="1705130548528" duration="583000" />
+      <workItem from="1705131141887" duration="3566000" />
+      <workItem from="1705137221836" duration="1368000" />
+      <workItem from="1705138991785" duration="1407000" />
+      <workItem from="1705140409320" duration="652000" />
+      <workItem from="1705141074928" duration="589000" />
+      <workItem from="1705141675596" duration="72000" />
+      <workItem from="1705141755401" duration="7000" />
+      <workItem from="1705141772137" duration="1169000" />
+      <workItem from="1705151776105" duration="4875000" />
+      <workItem from="1705231826790" duration="13560000" />
+      <workItem from="1705297970085" duration="9905000" />
+      <workItem from="1705380110494" duration="1697000" />
+      <workItem from="1705382158529" duration="1130000" />
+      <workItem from="1705391704925" duration="11598000" />
+      <workItem from="1705481712323" duration="3741000" />
+      <workItem from="1705485467513" duration="4585000" />
+      <workItem from="1705564939808" duration="14864000" />
+      <workItem from="1705657334082" duration="7850000" />
+      <workItem from="1705680976762" duration="3821000" />
+      <workItem from="1705753607060" duration="3190000" />
+      <workItem from="1705961394848" duration="6316000" />
+      <workItem from="1705983398258" duration="1830000" />
+      <workItem from="1705985238231" duration="3383000" />
+      <workItem from="1706016763019" duration="3363000" />
+      <workItem from="1706142220316" duration="1876000" />
+      <workItem from="1706150327793" duration="11203000" />
+      <workItem from="1706186273371" duration="4502000" />
+      <workItem from="1706238797326" duration="2016000" />
+      <workItem from="1706240825416" duration="1475000" />
+      <workItem from="1706242309312" duration="2443000" />
+      <workItem from="1706250843749" duration="1167000" />
+      <workItem from="1706253467438" duration="5271000" />
+      <workItem from="1706280020095" duration="2444000" />
+      <workItem from="1706287330633" duration="78000" />
+      <workItem from="1706287417846" duration="392000" />
+      <workItem from="1706287817465" duration="287000" />
+      <workItem from="1706309578440" duration="414000" />
+      <workItem from="1706310001939" duration="4243000" />
+      <workItem from="1706324334022" duration="4566000" />
+      <workItem from="1706329803322" duration="5051000" />
+      <workItem from="1706338489650" duration="610000" />
+      <workItem from="1706356544842" duration="8813000" />
+      <workItem from="1706401630690" duration="4931000" />
+      <workItem from="1706422032322" duration="4399000" />
+      <workItem from="1706426488788" duration="676000" />
+      <workItem from="1706488960711" duration="113000" />
+      <workItem from="1706601418010" duration="3755000" />
+      <workItem from="1706674600759" duration="1539000" />
+      <workItem from="1706687303609" duration="598000" />
+      <workItem from="1706757972633" duration="685000" />
+      <workItem from="1706758666819" duration="638000" />
+      <workItem from="1706759313461" duration="446000" />
+      <workItem from="1706759766897" duration="1405000" />
+      <workItem from="1706761182532" duration="1133000" />
+      <workItem from="1706762323607" duration="117000" />
+      <workItem from="1706762570782" duration="321000" />
+      <workItem from="1706762976712" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Jobapp$0001_initial.coverage" NAME="0001_initial Coverage Results" MODIFIED="1705986209159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/subscribe/migrations" />
+    <SUITE FILE_PATH="coverage/Jobapp$urls.coverage" NAME="urls Coverage Results" MODIFIED="1704725295319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/Jobapp$views.coverage" NAME="views Coverage Results" MODIFIED="1705245137104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+  </component>
+</project>
