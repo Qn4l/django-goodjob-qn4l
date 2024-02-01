@@ -19,7 +19,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 nav {
   background: #dfe6ff;
@@ -30,7 +30,7 @@ a {
   color: white;
 }
 .container {
-  max-width: 1200px;
+  max-width: 75em;
   margin: auto;
 }
 nav .container {
@@ -82,14 +82,14 @@ img {
   font-size: 1rem;
 }
 
-/* post card */
+/* The post card */
 
 .post {
   background: var(--card);
-  border-radius: 8px;
-  padding: 2em;
+  border-radius: 16px;
+  padding: 2.5em;
   box-shadow: var(--shadow);
-  margin-top: 3em;
+  margin-top: 10rem;
   display: grid;
   align-items: center;
   grid-template-columns: 8fr 2fr;
@@ -101,11 +101,11 @@ img {
 .buttons {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 
 .post:last-child {
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
 }
 .item {
   display: flex;
@@ -212,7 +212,7 @@ img {
     height: 45px;
   }
   .links {
-    height: 90vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     top: 10vh;
@@ -260,7 +260,7 @@ img {
     margin-top: 7em;
   }
   .jobtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #2d3557
   }
   .it {
@@ -272,8 +272,7 @@ button{
   cursor: pointer;
   }
 
-
-  /* Email code */
+  /* code for email (Subscribe Form) */
   .subscribe-text{
   border: none;
   outline: none;
@@ -284,24 +283,6 @@ button{
   font-weight: 400;
   width: 100%;
   }
-
-  /* .email-form{
-    grid-template-columns: 1fr;
-    padding: 1em;
-    margin-top: 15vh;
-    display: grid;
-    gap: 2em;
-    background-color: var(--blue);
-    padding: 2em;
-    border-radius: 8px;
-    margin-top: 3em;
-    width: 50%;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-  } */
 
   .email-form-title{
     color: #f5f6f5;
@@ -334,7 +315,7 @@ button{
     font-weight: 500;
     color: white;
     padding: 0 3em;
-    
+
   }
 
   label {
@@ -355,7 +336,7 @@ margin-bottom: 2em;
 }
 
 form {
-  width: 50%;
+  width: 100%;
   padding: 3em 2em;
   background: white;
   border-radius: 10px;
@@ -380,6 +361,6 @@ form {
   width: 100%;
   padding: 0 20px;
   margin: 2em;
-  font-size: 30px;
+  font-size: 1.1rem;
 }
 
