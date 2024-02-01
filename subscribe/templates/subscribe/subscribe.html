@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+    Good Job | Subscribe
+{% endblock title%}
+{% block content %}
+    <!-- subscribe form {child}-->
+	<section>
+      <div class="container">
+          <form class="email-form" method="post">
+              {% csrf_token %}
+              {{ subscribe_form.as_p }}
+          <button class="email-submit">Submit</button>
+          </form>
+      </div>
+</section>
+{% endblock %}

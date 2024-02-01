@@ -1,0 +1,16 @@
+{%if is_authenticated%}
+    <h1>Hello {{Name}}, your age is {{age}}</h1>
+{%else%}
+    <h1>Hello Dear User, your age is {{age}}</h1>
+{% endif %}
+
+    <i><h3>Is {{Name_list.0}} your friend?</h3></i>
+    <i><h3>Value of x is {{a_temp.x}} !</h3></i>
+
+{% for x in Name_list %}
+    <ul><li><button><em>Name&nbsp{{ forloop.counter }}:<b>{{x}}</b></em></button></li></ul>
+{% endfor %}
+{% comment "First_Comment" %}
+<h1>Filters</h1>
+    {{ Name_list | length_is:4}}
+{% endcomment %}
