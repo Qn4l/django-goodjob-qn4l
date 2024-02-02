@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 from pathlib import Path
 
+from django.template.backends import django
+
+import jobapp
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -38,6 +42,7 @@ INSTALLED_APPS = [
     'app.apps.AppConfig',
     'subscribe.apps.SubscribeConfig',
     'uploadapp.apps.UploadappConfig',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +130,33 @@ MEDIA_ROOT = BASE_DIR / 'uploads'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+DEFAULT_FILE_STORAGE = "storages.backends.s3.S3Storage"
+
+# STATICFILES_STORAGE = "storages.backends.s3.S3Storage"
+
+AWS_ACCESS_KEY_ID: os.getenv('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY: os.getenv('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME: os.getenv('AWS_STORAGE_BUCKET_NAME')
+AWS_S3_REGION_NAME: os.getenv('AWS_S3_REGION_NAME')  # Optional, if different from default
+AWS_QUERYSTRING_AUTH: False
+STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
+
+
+# STORAGES = {
+#     "default": {
+#         "BACKEND": "storages.backends.s3.S3Storage",
+#
+#         # "staticfiles": {
+#         #     "BACKEND": "storages.backends.s3.S3Storage",  # Note: Use S3Boto3Storage backend
+#         "OPTIONS": {
+#             "AWS_ACCESS_KEY_ID": os.getenv('AWS_ACCESS_KEY_ID'),
+#             "AWS_SECRET_ACCESS_KEY": os.getenv('AWS_SECRET_ACCESS_KEY'),
+#             "AWS_STORAGE_BUCKET_NAME": os.getenv('AWS_STORAGE_BUCKET_NAME'),
+#             "AWS_S3_REGION_NAME": os.getenv('AWS_S3_REGION_NAME'),  # Optional, if different from default
+#             "AWS_QUERYSTRING_AUTH": "False",
+#
+#                     },
+#                 },
+#             }
+# AWS_QUERYSTRING_AUTH: False
