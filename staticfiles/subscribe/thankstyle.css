@@ -1,0 +1,20 @@
+.container {
+  /* Use flexbox to center the content horizontally and vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Set the height of the container to the full viewport height */
+  height: 100vh;
+}
+
+p {
+  /* Add some padding and margin to the paragraph */
+  padding: 2rem;
+  margin: 1rem;
+  /* Add a decoration line and a color to the text */
+  text-decoration: underline;
+  text-decoration-color: purple;
+  /* Use a custom font and a larger font size */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 2rem;
+}
