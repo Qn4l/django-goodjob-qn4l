@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="364e04e2-d8ee-412a-a33d-82ffea825979" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/jobapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobapp/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="364e04e2-d8ee-412a-a33d-82ffea825979" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +239,7 @@
       <workItem from="1706875357531" duration="9002000" />
       <workItem from="1706937566630" duration="878000" />
       <workItem from="1706938496693" duration="2119000" />
-      <workItem from="1706940626593" duration="6869000" />
+      <workItem from="1706940626593" duration="7486000" />
     </task>
     <servers />
   </component>
