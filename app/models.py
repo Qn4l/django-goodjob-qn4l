@@ -1,3 +1,5 @@
+import uuid
+
 from django.db import models
 from django.utils.text import slugify
 
@@ -38,6 +40,7 @@ class JobPost(models.Model):
         ('Part Time', 'Part Time'),
     ]
     objects = None
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=200, verbose_name='Title')
     description = models.TextField(verbose_name='Description')
     salary = models.FloatField(verbose_name='Salary')

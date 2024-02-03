@@ -30,7 +30,7 @@
           </div>
           <div class="buttons">
             <button class="apply">
-              <a href="{% url 'jobs_detail' forloop.counter %}">View Job</a>
+              <a href="{% url 'jobs_detail' loop_job.id %}">View Job</a>
             </button>
           </div>
         </div>

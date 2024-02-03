@@ -11,10 +11,15 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
 from pathlib import Path
+import environ
 
 from django.template.backends import django
 
 import jobapp
+
+
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,12 +28,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-z6ky_&292j81wbhp$r6*1$+m&5+d^tfve@pdqyd_bncv)tkb*s')
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("IS_DEVELOPMENT", True) == 'True'
+DEBUG = True
 
-ALLOWED_HOSTS = [os.getenv("APP_HOST", "localhost"), '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -80,16 +85,8 @@ WSGI_APPLICATION = 'jobapp.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DATABASE-NAME'),
-        'USER': os.getenv('DATABASE-USER'),
-        'PASSWORD': os.getenv('DATABASE-PASSWORD'),
-        'HOST': os.getenv('DATABASE-HOST'),
-        'PORT': os.getenv('DATABASE-PORT'),
-    }
+    'default': env.db()
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
