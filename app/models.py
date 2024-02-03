@@ -24,7 +24,6 @@ class Author(models.Model):
 
 
 class Location(models.Model):
-    objects = None
     country = models.CharField(max_length=200, verbose_name='Country')
     city = models.CharField(max_length=200, verbose_name='City')
     state = models.CharField(max_length=200, verbose_name='State')
