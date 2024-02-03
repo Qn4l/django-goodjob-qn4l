@@ -157,7 +157,7 @@ STORAGES = {
             "AWS_STORAGE_BUCKET_NAME": os.getenv('AWS_STORAGE_BUCKET_NAME'),
             "AWS_S3_REGION_NAME": os.getenv('AWS_S3_REGION_NAME'),  # Optional, if different from default
             "AWS_QUERYSTRING_AUTH": "False",
-
         },
     },
+    "staticfiles ": "storages.backends.s3.S3Storage",
 }
