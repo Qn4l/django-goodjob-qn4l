@@ -131,7 +131,7 @@ MEDIA_ROOT = BASE_DIR / 'uploads'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # DEFAULT_FILE_STORAGE = "storages.backends.s3.S3Storage"
 #
