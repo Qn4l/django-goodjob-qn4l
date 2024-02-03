@@ -47,7 +47,7 @@ def hello_view(request):
 
 def job(request, ids):
     try:
-        print("ids are this",ids)
+        print("ids are this", ids)
         if ids == 0:  # or ids == "home" but error showing up. --expected int but got favicon.ico
             return redirect(reverse('job_list_home'))
         # context = {'Job_title': job_title[ids], 'Job_description': job_description[ids]}
