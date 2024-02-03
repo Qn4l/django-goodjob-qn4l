@@ -159,5 +159,5 @@ STORAGES = {
             "AWS_QUERYSTRING_AUTH": "False",
         },
     },
-    "staticfiles ": "storages.backends.s3.S3Storage",
+    "staticfiles": "storages.backends.s3.S3Storage",
 }
