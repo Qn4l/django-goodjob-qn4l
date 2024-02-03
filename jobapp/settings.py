@@ -151,20 +151,9 @@ AWS_STORAGE_BUCKET_NAME= env('BUCKET_NAME')
 AWS_S3_REGION_NAME= env('AWS_S3_REGION_NAME')  # Optional if different from default
 AWS_QUERYSTRING_AUTH= "False"
 
-S3_OPTIONS = {
-    "AWS_ACCESS_KEY_ID": env('AWS_ACCESS_KEY_ID'),
-    "AWS_SECRET_ACCESS_KEY": env('AWS_SECRET_ACCESS_KEY'),
-    "AWS_STORAGE_BUCKET_NAME": env('BUCKET_NAME'),
-    "AWS_S3_REGION_NAME": env('AWS_S3_REGION_NAME'),  # Optional, if different from default
-    "AWS_QUERYSTRING_AUTH": "False",
-}
 STORAGES = {
     "default": {
         "BACKEND": "storages.backends.s3.S3Storage",
-
-        # "staticfiles": {
-        #     "BACKEND": "storages.backends.s3.S3Storage",  # Note: Use S3Boto3Storage backend
-        "OPTIONS": S3_OPTIONS,
     },
     "staticfiles": {
         "BACKEND": "storages.backends.s3.S3Storage",
