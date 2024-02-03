@@ -17,7 +17,6 @@ from django.template.backends import django
 
 import jobapp
 
-
 env = environ.Env()
 environ.Env.read_env()
 
@@ -120,8 +119,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'app/static/app'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'uploads'
@@ -145,11 +144,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # # STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
 #
 #
-AWS_ACCESS_KEY_ID= env('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY= env('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME= env('BUCKET_NAME')
-AWS_S3_REGION_NAME= env('AWS_S3_REGION_NAME')  # Optional if different from default
-AWS_QUERYSTRING_AUTH= "False"
+AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = env('BUCKET_NAME')
+AWS_S3_REGION_NAME = env('AWS_S3_REGION_NAME')  # Optional if different from default
+AWS_QUERYSTRING_AUTH = False
 
 STORAGES = {
     "default": {
@@ -158,4 +157,4 @@ STORAGES = {
     "staticfiles": {
         "BACKEND": "storages.backends.s3.S3Storage",
     }
-}   
+}
