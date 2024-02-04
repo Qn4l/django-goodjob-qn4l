@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('IS_DEVELOPMENT') == "TRUE"
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [env("APP_HOST", "localhost", '127.0.0.1')]
 
 # Application definition
 
@@ -133,21 +133,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # DEFAULT_FILE_STORAGE = "storages.backends.s3.S3Storage"
-#
-# # STATICFILES_STORAGE = "storages.backends.s3.S3Storage"
-#
-# # AWS_ACCESS_KEY_ID: os.getenv('AWS_ACCESS_KEY_ID')
-# # AWS_SECRET_ACCESS_KEY: os.getenv('AWS_SECRET_ACCESS_KEY')
-# # AWS_STORAGE_BUCKET_NAME: os.getenv('AWS_STORAGE_BUCKET_NAME')
-# # AWS_S3_REGION_NAME: os.getenv('AWS_S3_REGION_NAME')  # Optional, if different from default
-# # AWS_QUERYSTRING_AUTH: False
-# # STATICFILES_STORAGE = 'storages.backends.s3.S3Storage'
-#
-#
+
+# STATICFILES_STORAGE = "storages.backends.s3.S3Storage"
+
 AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = env('BUCKET_NAME')
-AWS_S3_REGION_NAME = env('AWS_S3_REGION_NAME')  # Optional if different from default
+AWS_S3_REGION_NAME = env('AWS_S3_REGION_NAME')
 AWS_QUERYSTRING_AUTH = False
 
 STORAGES = {

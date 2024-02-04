@@ -1,23 +1,48 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static "uploads/style.css" %}">
-    <title>Upload image</title>
-</head>
-<body>
-        <form method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{form.as_p}}
-            <button type="submit" class="button1">Upload</button>
-        </form>
-        {% if saved_object %}
-            <h2>Upload successful: {{ saved_object.image.url }}</h2>
+{% extends "base.html" %}
+{% block title %}
+    Good Job | Upload Image
+{% endblock title%}
+{% block content %}
+    <!-- subscribe form {child}-->
+	<section>
+      <div class="container">
+         <form method="post" enctype="multipart/form-data">
+              {% csrf_token %}
+              {{ form.as_p }}
+                 <button type="submit" class="apply">Upload</button>
+         </form>
+      </div>
+    {% if saved_object %}
+            <h2 style="font-style:oblique">Upload successful: {{ saved_object.image.url }}</h2>
             <h2>Image description: {{ saved_object.description }}</h2>
             <img src="{{ saved_object.image.url }}" alt="image" style="max-height:1280px; max-width:720px">
-        {% endif %}
-</body>
-</html>
+    {% endif %}
+</section>
+{% endblock %}
+
+
+{#{% load static %}#}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <meta http-equiv="X-UA-Compatible" content="IE=edge">#}
+{#    <meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#    <link rel="stylesheet" type="text/css" href="{% static "app/style.css" %}">#}
+{#    <title>Upload image</title>#}
+{#</head>#}
+{#<body>#}
+{#        <form method="post" enctype="multipart/form-data">#}
+{#            {% csrf_token %}#}
+{#            {{form.as_p}}#}
+{#            <div class="upload-btn-wrapper">#}
+{#                <button type="submit" class="apply">Upload</button>#}
+{#            </div>#}
+{#        </form>#}
+{#        {% if saved_object %}#}
+{#            <h2 style="font-style:oblique">Upload successful: {{ saved_object.image.url }}</h2>#}
+{#            <h2>Image description: {{ saved_object.description }}</h2>#}
+{#            <img src="{{ saved_object.image.url }}" alt="image" style="max-height:1280px; max-width:720px">#}
+{#        {% endif %}#}
+{#</body>#}
+{#</html>#}

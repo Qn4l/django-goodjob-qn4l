@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364e04e2-d8ee-412a-a33d-82ffea825979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theme/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/static_src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/static_src/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/static_src/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/static_src/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/static_src/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/1logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/Nice Job Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/app/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/app/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadapp/templates/uploadapp/add_file.html" beforeDir="false" afterPath="$PROJECT_DIR$/uploadapp/templates/uploadapp/add_file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadapp/templates/uploadapp/add_image.html" beforeDir="false" afterPath="$PROJECT_DIR$/uploadapp/templates/uploadapp/add_image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,6 +251,9 @@
       <workItem from="1706938496693" duration="2119000" />
       <workItem from="1706940626593" duration="8956000" />
       <workItem from="1706971213023" duration="3869000" />
+      <workItem from="1706981575463" duration="88000" />
+      <workItem from="1706981751957" duration="145000" />
+      <workItem from="1707036570851" duration="5956000" />
     </task>
     <servers />
   </component>
